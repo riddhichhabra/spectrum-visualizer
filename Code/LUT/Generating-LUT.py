@@ -16,7 +16,6 @@ def list_bonds(min_freq, max_freq, sampling_rate, samples_count, bands_count):
         band_freq = min_freq * (freq_multiplier) ** i_band
         center_bin = (band_freq / bin_width)
         center_bins.append({"i_band": i_band, "band_freq":band_freq, "center_bin":center_bin})
-    # print(center_bins)
 
     min_max_bonds = []
 
@@ -41,11 +40,10 @@ def list_bonds(min_freq, max_freq, sampling_rate, samples_count, bands_count):
 
     print(f"Usable bins count ({check_sum}) correct: {check_sum == usable_bins}")
 
-
     return bands
 
 
-bands = list_bonds(20, 20000, 40000, 512, 16)
+bands = list_bonds(220, 20000, 40000, 512, 16)
 
 str_output = f"int bands[{len(bands)}]" + " = {\n"
 file = open("bands_from_bins.txt", 'w')
