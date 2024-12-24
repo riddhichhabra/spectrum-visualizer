@@ -4,5 +4,5 @@ Run a loop in cpp file to:
 - Add magnitudes
 - Scaling
 
-Determination of the scaling factor:
+Determination of the scaling factor:\\
 $Factor = Max Height \(15\)/Max FFT Magnitude$
