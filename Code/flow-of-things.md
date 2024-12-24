@@ -4,8 +4,8 @@ Run a loop in cpp file to:
 - Add magnitudes
 - Scaling
 
-**NOTE**
-Light up the lowest row by default, so height reduces to 15 
+> [!NOTE]
+> Light up the lowest row by default, so height reduces to 15 
 
 Determination of the scaling factor:\
 $$Factor = \frac{\text{Max Height \(15\)}}{\text{Max FFT Magnitude}}$$
