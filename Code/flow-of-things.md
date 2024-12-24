@@ -4,7 +4,7 @@ Run a loop in cpp file to:
 - Add magnitudes
 - Scaling
 
-[!Note] 
+[!NOTE]
 Light up the lowest row by default, so height reduces to 15 
 
 Determination of the scaling factor:\
