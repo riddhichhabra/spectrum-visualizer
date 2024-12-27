@@ -16,5 +16,5 @@ Two possibilities:
 - Dynamic Scaling
 
 ## To be done:
-- [] find the sampling frequency
-- [] find how to calculate scaling factor
+- [ ] find the sampling frequency
+- [ ] find how to calculate scaling factor
