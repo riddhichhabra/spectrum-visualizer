@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/riddhichhabra/RC/TAMU Undergrad/DEEP_2024/spectrum-visualizer/Code",
-      "program": "/Users/riddhichhabra/RC/TAMU Undergrad/DEEP_2024/spectrum-visualizer/Code/build/Debug/outDebug"
+      "cwd": "/Users/riddhichhabra/RC/TAMU-Undergrad/DEEP_2024/spectrum-visualizer/Code",
+      "program": "/Users/riddhichhabra/RC/TAMU-Undergrad/DEEP_2024/spectrum-visualizer/Code/build/Debug/outDebug"
     }
   ]
 }

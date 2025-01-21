@@ -27,3 +27,11 @@ Two possibilities:
 ## To be done:
 - [ ] find the sampling frequency
 - [ ] find how to calculate scaling factor
+
+## Flow for input.cpp
+
+- function to read analog values
+- sampling rate should be atleast twice the highest frequency : Nyquist theorem
+- perform FFT
+- set brightness, color etc for LEDs based on FFT output
+- 
